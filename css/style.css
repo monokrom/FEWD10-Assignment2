@@ -11,6 +11,10 @@ Developer @GA in NYC
 /*******************************************/
 
 
+/* Type */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800);
+
 /* Box Model Hack */
 
 * {
@@ -59,8 +63,43 @@ body {
     color: #000;
     font-size: 12px;
     line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 10%;
+}
+
+h2 {
+    font-size: 20px;
+    color: #033048;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+li {
+    color: #606061;
+    font-size: 13px;
+    line-height: 1.8em;
 }
 
 
@@ -72,17 +111,21 @@ body {
 /* Center the container */
 
 #container {
-    width: 100%;
-    margin: auto;
+    width: 1200px;
+    margin: 0;
     height: 500px;
 }
 
 header {
     width: 100vw;
     height: 700px;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+    background: url(../img/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
     background-size: cover;
     text-align: center;
+}
+
+.headerwrap {
+    display: block;
 }
 
 section {
@@ -91,22 +134,23 @@ section {
 }
 
 .benefits {
-    padding: 30px;
+    padding: 120px;
+    background-color: #f0efef;
 }
 
 .testimonial {
-    padding: 30px;
+    padding: 30px 20%;
     height: 400px;
+    background: url(../img/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
+    background-size: cover;
     text-align: center;
-    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
 }
 
 footer {
     width: 100vw;
     height: 350px;
     margin: 0;
-    padding: 0px;
-    text-align: center;
+    padding-top: 0px;
     background-color: black;
 }
 
@@ -115,20 +159,35 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.logo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9e42e;
+    text-align: left;
+    padding: 40px 120px;
+}
+
+footer .logo {
+    text-align: center;
+}
+
 .signup {
-    background-color: yellow;
+    background-color: #f9e42e;
     width: 100vw;
     padding: 30px;
+    text-align: center;
 }
 
 .btn {
     -webkit-border-radius: 3;
     -moz-border-radius: 3;
-    border-radius: 3px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 16px;
-    background: #3498db;
+    border-radius: 5px;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    background: #033048;
+    color: white;
     padding: 10px 30px 10px 30px;
     text-decoration: none;
 }
@@ -138,5 +197,45 @@ footer {
     text-decoration: none;
 }
 
+header .btn {
+    background-color: #f9e42e;
+    color: #033048;
+    font-size: 14px;
+}
 
+.quote {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10%;
+}
+
+.quote h3 {
+    font-size: 18px;
+}
+
+.quoteby {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 9px;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.socialbox {
+    text-align: center;
+}
+
+.socialicon {
+    padding: 10px;
 }
