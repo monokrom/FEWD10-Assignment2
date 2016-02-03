@@ -84,7 +84,7 @@ header h1 {
 h2 {
     font-size: 20px;
     color: #033048;
-        font-weight: 600;
+    font-weight: 600;
 }
 
 h3 {
@@ -240,4 +240,15 @@ div.quote p {
 
 .socialicon {
     padding: 10px;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
