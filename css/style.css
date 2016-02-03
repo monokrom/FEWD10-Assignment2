@@ -13,7 +13,7 @@ Developer @GA in NYC
 
 /* Type */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800,900);
 
 /* Box Model Hack */
 
@@ -84,6 +84,7 @@ header h1 {
 h2 {
     font-size: 20px;
     color: #033048;
+        font-weight: 600;
 }
 
 h3 {
@@ -113,7 +114,6 @@ li {
 #container {
     width: 1200px;
     margin: 0;
-    height: 500px;
 }
 
 header {
@@ -124,17 +124,13 @@ header {
     text-align: center;
 }
 
-.headerwrap {
-    display: block;
-}
-
 section {
     width: 100vw;
     height: 700px;
 }
 
 .benefits {
-    padding: 120px;
+    padding: 120px 30% 120px 120px;
     background-color: #f0efef;
 }
 
@@ -151,7 +147,7 @@ footer {
     height: 350px;
     margin: 0;
     padding-top: 0px;
-    background-color: black;
+    background-color: #121212;
 }
 
 
@@ -203,6 +199,12 @@ header .btn {
     font-size: 14px;
 }
 
+header .btn:hover {
+    background-color: #033048;
+    color: white;
+    font-size: 14px;
+}
+
 .quote {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -213,7 +215,7 @@ header .btn {
     padding: 10%;
 }
 
-.quote h3 {
+div.quote p {
     font-size: 18px;
 }
 
